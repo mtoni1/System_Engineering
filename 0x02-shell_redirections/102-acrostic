@@ -1,0 +1,3 @@
+read -p "Enter the acrostic: " acrostic
+decoded=$(echo "$acrostic" | tr 'abcdefghijklmnopqrstuvwxyz' 'bcdefghijklmnopqrstuvwxyza')
+echo -e "$decoded\n"

@@ -1,1 +1,1 @@
-This project demonstrates the use of shell I/O command and filter commands in displaying output
+These are individual cases of using I/O commands and filters in shell programming

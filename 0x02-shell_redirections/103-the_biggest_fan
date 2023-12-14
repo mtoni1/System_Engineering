@@ -1,0 +1,2 @@
+#!/bin/bash
+while IFS=$'\t' | read -r host ip other | echo "$host" | sort | head -n 11
