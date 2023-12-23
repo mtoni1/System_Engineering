@@ -1,0 +1,2 @@
+#!/bin/bash
+echo `find . -printf "%f/%y, " | LC_ALL=C sort -t '/' -k 2 | head -c -2`
