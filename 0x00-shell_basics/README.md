@@ -1,1 +1,1 @@
-Shell basic linux commands
+ shell basic linus commands
