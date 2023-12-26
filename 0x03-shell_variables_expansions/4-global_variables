@@ -1,2 +1,2 @@
 #!/bin/bash
-printenv > env_variables.txt
+printenv > HBTN=89
