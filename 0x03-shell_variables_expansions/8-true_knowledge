@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "The sum of 'TRUEKNOWLEDGE' and 128 is: %d\n"
+printf "The sum of 'TRUEKNOWLEDGE' and 128 is: %d\n" "$SUM"
