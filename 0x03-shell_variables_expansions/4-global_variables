@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$PATH" | tr ':' '\n'
+printenv > env_variables.txt
