@@ -1,0 +1,4 @@
+ hostname -I | awk '{print $1}'
+if [ -z "$(hostname -I)" ]; then
+  echo "No active IPv4 addresses found."
+fi
