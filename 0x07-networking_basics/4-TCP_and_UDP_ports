@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# This script displays listening ports with their PID and program name
+
+  echo "Listening ports:"
+  echo "----------------"
+  sudo lsof -np -iTCP -sTCP:LISTEN |
+awk '{print $1, $2, $9}' | tail -n +2
