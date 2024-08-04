@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# This script pings an IP address passed as an argument
+
+# Checking if an argument is passed
+if [ "$#" -ne 1 ]; then
+  echo "Usage: 5-is_the_host_on_the_network{IP_ADDRESS}"
+  exit 1
+  fi
+# Assigning the argument to a variable
+  IP_ADDRESS=$1
+# Ping the IP address 5 times
+ping -c 5 "$IP_ADDRESS"
+# Checking the exit status of the ping command
+if [ $? -eq 0 ]; then
+  echo "Ping to $IP_ADDRESS was successful"
+else
+  echo "Ping to $IP_ADDRESS failed"
+fi
