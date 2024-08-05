@@ -5,3 +5,5 @@ The Network layer: IP and ICMP
 Types of network; LAN and WAN
 The Internet
 MAC and IP addresses
+The Internet Control Message Protocol(ICMP) is used by network devices to check if othe network devices are available on the network.
+The 'ping' command uses ICMP to make sure that a network device remains online or to trouble shoot issues on the network
