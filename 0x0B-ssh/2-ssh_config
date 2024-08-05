@@ -1,0 +1,2 @@
+# SSH client configuration must be configured to use the private key
+# must refuse to authenticate using a password
